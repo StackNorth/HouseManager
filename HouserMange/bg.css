@@ -1,0 +1,29 @@
+/*body{
+	background:img:bg.jpg;
+}*/
+body {
+	background:url(bg.jpg) top center no-repeat; 
+	background-size:cover;
+}
+
+img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
+a:link { 
+	font-size: 15px; 
+	color: black; 
+	text-decoration: none; 
+} 
+a:visited { 
+	font-size: 15px; 
+	color: #000000; 
+	text-decoration: none; 
+} 
+a:hover { 
+	font-size: 15px; 
+	color: #FAEBD7; 
+	text-decoration: underline; 
+} 
